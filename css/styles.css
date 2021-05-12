@@ -10183,7 +10183,7 @@ section h2 {
   transition: all 0.35s ease-in-out;
 }
 #mainNav .navbar-brand {
-  color: #4B6EB4;
+  color: white;
   font-family: "Catamaran", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
@@ -10207,17 +10207,32 @@ section h2 {
 #mainNav .navbar-nav > li > a,
 #mainNav .navbar-nav > li > a:focus {
   color: #212529;
+  border-bottom: 1px solid transparent;
+  /* transition: border-bottom 300ms; */
+  /* text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px solid blue;    
+    margin-right: 39px; 
+    width: 0px;
+    -webkit-transition: 0.5s ease;
+            transition: 0.5s ease; */
 }
 
 /* navbar (TOP) links hover */
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #4B6EB4;
+  
+  /* color: #4B6EB4; */
+  /* /* opacity: 0.9; */
+  border-bottom: 1px solid white; */
+  /* text-decoration: underline; */
+  
 }
 @media (min-width: 992px) {
   #mainNav {
-    border-color: transparent;
-    background-color: transparent;
+    border-color: #4B6EB4;
+    background-color: #4B6EB4;
+    
   }
 
 
@@ -10227,7 +10242,7 @@ section h2 {
 
   /* navbar (top) TITLE hover  */
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-    color: #4B6EB4;
+    color: white;
     opacity: 0.5;
     transition: 0.3s;
   }
@@ -10236,20 +10251,20 @@ section h2 {
   #mainNav .navbar-nav > li > a,
 #mainNav .navbar-nav > li > a:focus {
     /* color: rgba(255, 255, 255, 0.7); */
-    color: #4B6EB4;
+    color: white;
   }
 
   /* navbar (top) links HOVER */
   #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-    opacity: 0.5;
-    transition: 0.3s;
+    opacity: 0.3;
+    transition: 1s;
   }
 
   /* navbar scrolled */
   #mainNav.navbar-shrink {
-    border-color: rgba(33, 37, 41, 0.1);
-    background-color: #4B6EB4;
+    border-color: rgba(33, 37, 41, 0.5);
+    background-color: white;
   }
 
   /* navbar (scrolled) TITLE font */
@@ -10260,21 +10275,21 @@ section h2 {
 
   /* navbar (scrolled) TITLE hover */
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    opacity: 0.5;
-    transition: 0.3s;
+    opacity: 0.9;
+    transition: 1s;
   }
 
   /* navbar (scrolled) link colours */
   #mainNav.navbar-shrink .navbar-nav > li > a,
 #mainNav.navbar-shrink .navbar-nav > li > a:focus {
-    color: #FBFCFF;
+    color: #ffffff;
   }
 
   /* navbar (scrolled) link hover */
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
 #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-  opacity: 0.5;
-  transition: 0.3s;
+  opacity: 0.9;
+  transition: 1s;
   }
 }
 
